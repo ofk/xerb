@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
-module XERB
+require 'erb'
+
+class XERB < ::ERB
   VERSION = '0.1.0'
 end
