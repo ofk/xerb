@@ -2,9 +2,9 @@
 
 require 'test_helper'
 
-class XerbTest < Minitest::Test
+class XERBTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute { ::Xerb::VERSION.nil? }
+    refute { ::XERB::VERSION.nil? }
   end
 
   def test_it_does_something_useful

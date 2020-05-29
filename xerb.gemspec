@@ -6,7 +6,7 @@ require 'xerb/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'xerb'
-  spec.version       = Xerb::VERSION
+  spec.version       = XERB::VERSION
   spec.authors       = ['ofk']
   spec.email         = ['ofkjpn+github@gmail.com']
 
